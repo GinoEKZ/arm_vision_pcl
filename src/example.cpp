@@ -89,7 +89,7 @@ void cloud_cb (const sensor_msgs::PointCloud2 input)
   {
     boost::this_thread::sleep (boost::posix_time::microseconds (100));
   }
-  */
+  
   output = input;
 
   // Publish the data.
